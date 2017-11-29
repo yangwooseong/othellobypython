@@ -2,12 +2,7 @@ from __future__ import print_function
 import random
 import sys
 
-## comMove can be better by avoiding [1,7],[7,1]..
-## if you enter in your turn, error -->solved
-## need a function in case there is no available move
-## make user choose X or O
-## randomly choose who goes first
-## maybe level ?
+# orthello with AI trying to take the corners first and moving on greed algorithm
 
 def drawBoard(board):
     firstrow = '   1  2  3  4  5  6  7  8 '
